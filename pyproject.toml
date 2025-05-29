@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agent"
+version = "0.1.0"
+description = "AI Agent FastAPI Backend"
+authors = ["Your Name <you@example.com>"]
+packages = [{ include = "agent" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+langchain = "^0.1.16"
+openai = "^1.24.1"
+pydantic = "^2.6.4"
+python-dotenv = "^1.0.1"
+newspaper3k = "^0.2.8"
+lxml = {extras = ["html-clean"], version = "^5.4.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

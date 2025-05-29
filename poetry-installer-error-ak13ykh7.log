@@ -1,0 +1,8 @@
+Looking in links: c:\Users\jaa83\AppData\Local\Temp\tmpdjl8p9qq
+Requirement already satisfied: setuptools in c:\users\jaa83\appdata\roaming\pypoetry\venv\lib\site-packages (65.5.0)
+Requirement already satisfied: pip in c:\users\jaa83\appdata\roaming\pypoetry\venv\lib\site-packages (25.1.1)
+
+Traceback:
+
+  File "<stdin>", line 937, in main
+  File "<stdin>", line 576, in run
